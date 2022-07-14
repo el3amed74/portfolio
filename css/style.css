@@ -195,7 +195,8 @@ section{
     line-height: 1.8;
     font-weight: bold;
 }
-.about .content h3 span{
+.about .content h3 span,
+.about h1{
     color: var(--green);
 }
 .about .content p{
@@ -209,25 +210,15 @@ section{
     font-size: 2rem;
     color: var(--green);
 }
-.about .content i span{
+.about .content i span,
+.about .skills div{
     font-size: 2.5rem;
     color: var(--black);
 }
-.about .progress {
-    background: var(--bg-color);
-    box-shadow: var(--box-shadow);
-    height:2rem;
-    padding:.5rem;
-    margin:1rem 0;
-    border-radius: 5rem;
-    width: 90%;
-    height: 3rem;
-}
-.about .progress div{
-    background: var(--green);
-    border-radius: 5rem;
-    font-size: 1.5rem;
-    height: 100%;
+
+.about .skills i{
+    color: var(--green);
+    font-size: 2.5rem;
 }
 /* end about */
 /* start services */
@@ -245,7 +236,6 @@ section{
     position: relative;
     z-index: 0;
     overflow:hidden;
-    /* height: 30rem; */
 }
 .services .box-container .box i{
     font-size:4rem;
