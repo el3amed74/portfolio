@@ -14,3 +14,6 @@ $(document).ready(function(){
         $(".header").removeClass("active");
     });
 });
+
+const currentYear= new Date().getFullYear();
+document.getElementById("age").innerHTML= currentYear-2001 ;
